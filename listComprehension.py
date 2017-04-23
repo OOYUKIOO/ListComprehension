@@ -12,5 +12,3 @@ def cartesian(a,b):
 
 def symmetricDifference(a,b):
     return [x for x in a if x not in b] + [y for y in b if y not in a]
-
-print symmetricDifference([1,2,3],[1,4,2,5])
